@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/CircaFrax/CircaFrax-OS/blob/main/assets/CircaFraxOS_DVD_v1.png" width="500">
+  <img src="https://circafrax.github.io/assets/banniere.png" width="500">
 </p>
 
 # Mwangaza OS
