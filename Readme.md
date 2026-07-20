@@ -10,7 +10,7 @@
 
 **OS léger sobre.** Système clair pour tous. Core parfait, Plymouth, Grub, installeur.
 
-### Télécharger
+### Télécharger (A venir)
 -> [Releases](https://github.com/CircaFrax/Mwangaza-OS/releases)
 
 ---
