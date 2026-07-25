@@ -33,17 +33,18 @@ bash
 
 🚧 État d'avancement
 Branding
- Wallpaper bureau + lock screen
- Icône SUPER + Waybar taskbar sans chevauchement
- Thème GRUB
- Thème SDDM
- Plymouth - à faire
-Système
- BASE FIGÉE CLEAN - nettoyage 8 paquets
- Architecture en couches séparées
- Installation automatisée (archiso)
- ISO reproductible CircaFrax-OS-1.0-x86_64.iso
- Stabilisation boot -> desktop
+>Wallpaper bureau + lock screen
+- Icône SUPER + Waybar taskbar sans chevauchement
+- Thème GRUB
+- Thème SDDM
+- Plymouth - à faire
+>Système
+- BASE FIGÉE CLEAN - nettoyage 8 paquets
+- Architecture en couches séparées
+- Installation automatisée (archiso)
+- ISO reproductible CircaFrax-OS-1.0-x86_64.iso
+- Stabilisation boot -> desktop
+- 
 🖼️ Aperçu
 Screenshots à venir - VM clean
 
