@@ -33,7 +33,7 @@ Supprimés pour alléger : kitty, bemenu, jgmenu, wofi, hyprland (déplacé vers
 
 🚧 État d'avancement
 Branding
->Wallpaper bureau + lock screen
+- Wallpaper bureau + lock screen
 - Icône SUPER + Waybar taskbar sans chevauchement
 - Thème GRUB
 - Thème SDDM
