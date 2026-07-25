@@ -8,26 +8,29 @@ Cible Mwangaza : Hyprland Kiosk offline (Kiwix) pour citoyen isolé sans interne
 
 📦 Socle Minimal
 Couche	Détail
->Noyau	linux-lts + linux-firmware / mesa
->Init / Boot	systemd + grub + efibootmgr
->Graphique	Wayland + labwc 0.20.1 + xorg-xwayland
->Session	sddm
->Audio	pipewire + wireplumber + pipewire-pulse + pavucontrol
->Réseau	networkmanager
->Bureau	waybar (barre) / fuzzel (launcher) / foot (terminal) / swaybg + swaylock
->Base	base / base-devel / bash / sudo / git / nano / vim
->32 paquets au total. Audit du 22/07/2026.
->Liste reproductible : base/packages-list.txt
+- Noyau	linux-lts + linux-firmware / mesa
+- Init / Boot	systemd + grub + efibootmgr
+- Graphique	Wayland + labwc 0.20.1 + xorg-xwayland
+- Session	sddm
+- Audio	pipewire + wireplumber + pipewire-pulse + pavucontrol
+- Réseau	networkmanager
+- Bureau	waybar (barre) / fuzzel (launcher) / foot (terminal) / swaybg + swaylock
+- Base	base / base-devel / bash / sudo / git / nano / vim
+- >32 paquets au total. Audit du 22/07/2026.
+- Liste reproductible : base/packages-list.txt
 
 Supprimés pour alléger : kitty, bemenu, jgmenu, wofi, hyprland (déplacé vers Mwangaza)
 
+~~
 🗂️ Architecture
-- bash
-- /base/       -> socle reproductible
+bash
+/base/       -> socle reproductible
 /desktop/    -> config labwc, waybar, fuzzel
 /branding/   -> wallpapers, icon SUPER, themes GRUB / SDDM
 /skel/       -> futur /etc/skel pour l'ISO
 /iso/        -> profil archiso (à venir)
+~~
+
 🚧 État d'avancement
 Branding
  Wallpaper bureau + lock screen
