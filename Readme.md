@@ -44,7 +44,7 @@ Système
 🖼️ Aperçu
 Screenshots à venir - VM clean
 
-<p align="center"> <i>Place tes 2-3 captures ici : bureau vide, fuzzel ouvert, waybar</i><br> <code>assets/screenshot-desktop.png</code> </p>
+<p align="center"> <i>Prochainement captures ici : bureau vide, fuzzel ouvert, waybar</i><br> <code>assets/screenshot-desktop.png</code> </p>
 📥 Télécharger
 En construction active. Pas d'ISO publique pour l'instant.
 
