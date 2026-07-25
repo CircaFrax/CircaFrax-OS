@@ -1,64 +1,63 @@
-<p align="center"> <img src="https://circafrax.github.io/assets/banniere.png" width="500"> </p>
-CircaFrax OS
-<p align="center"> <img src="https://github.com/CircaFrax/CircaFrax-OS/blob/main/assets/CircaFraxOS_DVD_v1.png" width="420"> </p>
-OS léger, sobre, clair pour tous.
-Pas un rebrand. Un système artisanal, construit couche par couche. Base Arch pure, usage simple à la Windows.
+<p align="center"> <img src="https://circafrax.github.io/assets/banniere.png" width="500"> </p> <h1 align="center">CircaFrax OS</h1> <p align="center"> <b>OS léger, sobre, clair pour tous.</b><br> Pas un rebrand. Un système artisanal, construit couche par couche. </p> <p align="center"> <img src="https://img.shields.io/badge/Version-1.0--dev%20BASE%20FIG%C3%89E-beige?style=flat-square" /> <img src="https://img.shields.io/badge/Base-Arch%20pur%20%7C%20linux--lts-777?style=flat-square" /> <img src="https://img.shields.io/badge/Paquets-32%20seulement-lightgrey?style=flat-square" /> <img src="https://img.shields.io/badge/Philo-Pas%20de%20Python%20dans%20le%20socle-black?style=flat-square" /> </p> <p align="center"> <img src="https://github.com/CircaFrax/CircaFrax-OS/blob/main/assets/CircaFraxOS_DVD_v1.png" width="420"> </p>
+> Philosophie
+Le moins d'éléments extérieurs possibles.
+Base Arch pure, usage simple à la Windows. Chaque paquet a sa raison d'être.
 
-Philosophie : le moins d'éléments extérieurs possibles. Pas de Python dans le socle.
+Cible v1.0 : daily driver programmation, dualboot laptop.
+Cible Mwangaza : Hyprland Kiosk offline (Kiwix) pour citoyen isolé sans internet.
 
-Télécharger
-En construction - Base figée
--> Releases à venir
+📦 Socle Minimal
+Couche	Détail
+Noyau	linux-lts + linux-firmware / mesa
+Init / Boot	systemd + grub + efibootmgr
+Graphique	Wayland + labwc 0.20.1 + xorg-xwayland
+Session	sddm
+Audio	pipewire + wireplumber + pipewire-pulse + pavucontrol
+Réseau	networkmanager
+Bureau	waybar (barre) / fuzzel (launcher) / foot (terminal) / swaybg + swaylock
+Base	base / base-devel / bash / sudo / git / nano / vim
+32 paquets au total. Audit du 22/07/2026.
+Liste reproductible : base/packages-list.txt
 
-Spécificités
-CircaFrax OS n'est pas une surcouche. C'est un socle refait à la main.
+Supprimés pour alléger : kitty, bemenu, jgmenu, wofi, hyprland (déplacé vers Mwangaza)
 
-Noyau : linux-lts - stabilité daily driver
-Init : systemd
-Graphique : Wayland + labwc 0.20.1 (léger, stable, sans fioritures)
-Session : SDDM - login clair
-Audio : PipeWire + WirePlumber
-Réseau : NetworkManager
-Bureau : foot (terminal), fuzzel (launcher), waybar (barre), swaybg / swaylock
-32 paquets seulement.
-Pas de superflu. Chaque paquet a sa raison.
-
-base base-devel linux-lts linux-firmware grub efibootmgr
-networkmanager pipewire wireplumber
-labwc waybar foot fuzzel swaybg swaylock sddm
-...
-Liste complète reproductible : base/packages-list.txt
-
-Structure du projet
-/base/      -> socle reproductible
-/desktop/   -> config labwc, waybar, fuzzel
-/branding/  -> wallpapers, icônes, thèmes GRUB / SDDM
-/skel/      -> futur /etc/skel pour l'ISO
-/iso/       -> profil archiso (à venir)
-État d'avancement - v1.0-dev BASE FIGÉE (22/07/2026)
-Branding :
-
- Wallpaper bureau + lock
- Icône SUPER + Waybar taskbar
+🗂️ Architecture
+bash
+/base/       -> socle reproductible
+/desktop/    -> config labwc, waybar, fuzzel
+/branding/   -> wallpapers, icon SUPER, themes GRUB / SDDM
+/skel/       -> futur /etc/skel pour l'ISO
+/iso/        -> profil archiso (à venir)
+🚧 État d'avancement
+Branding
+ Wallpaper bureau + lock screen
+ Icône SUPER + Waybar taskbar sans chevauchement
  Thème GRUB
- Thème SDDM (prêt)
- Plymouth
-Système :
-
- Base gelée et nettoyée (-8 paquets)
- Architecture en couches
+ Thème SDDM
+ Plymouth - à faire
+Système
+ BASE FIGÉE CLEAN - nettoyage 8 paquets
+ Architecture en couches séparées
  Installation automatisée (archiso)
  ISO reproductible CircaFrax-OS-1.0-x86_64.iso
  Stabilisation boot -> desktop
-Cible v1.0 : daily driver programmation, dualboot laptop.
-Cible future Mwangaza : Hyprland Kiosk (Kiwix offline) pour citoyen isolé sans internet.
+🖼️ Aperçu
+Screenshots à venir - VM clean
 
-Installation
-Actuellement : installation manuelle Arch en VM EFI + copie du skel/.
+<p align="center"> <i>Place tes 2-3 captures ici : bureau vide, fuzzel ouvert, waybar</i><br> <code>assets/screenshot-desktop.png</code> </p>
+📥 Télécharger
+En construction active. Pas d'ISO publique pour l'instant.
 
-Bientôt : flash l'ISO et boot.
+-> Releases - à venir
 
-CircaFrax Consortium - Admin Sans Frontières
+Installation actuelle dev : VM EFI, install manuelle Arch + copie skel/.
 
-Libre d'usage. Source gardée. Comme un atelier qui prête ses outils mais garde ses plans.
+🔒 Et la sécurité ?
+Non, lister tes paquets ne rend pas l'OS moins sûr. C'est même l'inverse.
 
+Tout le monde sait qu'Arch utilise linux-lts et systemd, le cacher ne sert à rien.
+La sécurité vient des mises à jour (pacman -Syu), pas du secret.
+Ce que tu dois garder privé : tes clés, mots de passe WiFi, tokens dans .config perso. Pas la liste des paquets de base.
+Montrer ton socle de 32 paquets, c'est prouver ta légèreté. C'est de la transparence, comme pour beta-test.
+
+<p align="center"> <b>CircaFrax Consortium - Admin Sans Frontières</b><br> <i>Libre d'usage. Source gardée. Comme un atelier qui prête ses outils mais garde ses plans.</i> </p>
