@@ -44,7 +44,7 @@ Branding
 - Installation automatisée (archiso)
 - ISO reproductible CircaFrax-OS-1.0-x86_64.iso
 - Stabilisation boot -> desktop
-- 
+
 🖼️ Aperçu
 Screenshots à venir - VM clean
 
