@@ -23,12 +23,12 @@ Supprimés pour alléger : kitty, bemenu, jgmenu, wofi, hyprland (déplacé vers
 
 
 🗂️ Architecture
-bash
-/base/       -> socle reproductible
-/desktop/    -> config labwc, waybar, fuzzel
-/branding/   -> wallpapers, icon SUPER, themes GRUB / SDDM
-/skel/       -> futur /etc/skel pour l'ISO
-/iso/        -> profil archiso (à venir)
+- bash
+- /base/       -> socle reproductible
+- /desktop/    -> config labwc, waybar, fuzzel
+- /branding/   -> wallpapers, icon SUPER, themes GRUB / SDDM
+- /skel/       -> futur /etc/skel pour l'ISO
+- /iso/        -> profil archiso (à venir)
 
 
 🚧 État d'avancement
