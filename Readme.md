@@ -56,12 +56,4 @@ En construction active. Pas d'ISO publique pour l'instant.
 
 Installation actuelle dev : VM EFI, install manuelle Arch + copie skel/.
 
-🔒 Et la sécurité ?
-Non, lister tes paquets ne rend pas l'OS moins sûr. C'est même l'inverse.
-
-Tout le monde sait qu'Arch utilise linux-lts et systemd, le cacher ne sert à rien.
-La sécurité vient des mises à jour (pacman -Syu), pas du secret.
-Ce que tu dois garder privé : tes clés, mots de passe WiFi, tokens dans .config perso. Pas la liste des paquets de base.
-Montrer ton socle de 32 paquets, c'est prouver ta légèreté. C'est de la transparence, comme pour beta-test.
-
 <p align="center"> <b>CircaFrax Consortium - Admin Sans Frontières</b><br> <i>Libre d'usage. Source gardée. Comme un atelier qui prête ses outils mais garde ses plans.</i> </p>
