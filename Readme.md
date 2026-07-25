@@ -16,12 +16,12 @@ Couche	Détail
 - Réseau	networkmanager
 - Bureau	waybar (barre) / fuzzel (launcher) / foot (terminal) / swaybg + swaylock
 - Base	base / base-devel / bash / sudo / git / nano / vim
-- >32 paquets au total. Audit du 22/07/2026.
+- 32 paquets au total. Audit du 22/07/2026.
 - Liste reproductible : base/packages-list.txt
 
 Supprimés pour alléger : kitty, bemenu, jgmenu, wofi, hyprland (déplacé vers Mwangaza)
 
-~~
+
 🗂️ Architecture
 bash
 /base/       -> socle reproductible
@@ -29,7 +29,7 @@ bash
 /branding/   -> wallpapers, icon SUPER, themes GRUB / SDDM
 /skel/       -> futur /etc/skel pour l'ISO
 /iso/        -> profil archiso (à venir)
-~~
+
 
 🚧 État d'avancement
 Branding
