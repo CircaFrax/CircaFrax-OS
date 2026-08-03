@@ -5,15 +5,15 @@ Base Arch pure, usage simple à la Windows. Chaque paquet a sa raison d'être.
 
 ## Aperçu GRUB
 <img src="assets/Screen_1.png" width="650">
-*Menu à gauche, prévisualisation à droite – 100% offline*
+*CircaFrax Grub*
 
 ## Aperçu SDDM
 <img src="assets/Screen_2.png" width="650">
-*Menu à gauche, prévisualisation à droite – 100% offline*
+*CircaFrax SDDM*
 
 ## Aperçu Lawbc
 <img src="assets/Screen_3.png" width="650">
-*Menu à gauche, prévisualisation à droite – 100% offline*
+*CircaFrax Lawbc*
 
 Cible v1.0 : daily driver programmation, dualboot laptop.
 Cible Mwangaza : Hyprland Kiosk offline (Kiwix) pour citoyen isolé sans internet.
