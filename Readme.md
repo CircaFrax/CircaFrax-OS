@@ -3,6 +3,18 @@
 Le moins d'éléments extérieurs possibles.
 Base Arch pure, usage simple à la Windows. Chaque paquet a sa raison d'être.
 
+## Aperçu 1
+<img src="assets/Screen_1.png" width="650">
+*Menu à gauche, prévisualisation à droite – 100% offline*
+
+## Aperçu 2
+<img src="assets/Screen_2.png" width="650">
+*Menu à gauche, prévisualisation à droite – 100% offline*
+
+## Aperçu 3
+<img src="assets/Screen_3.png" width="650">
+*Menu à gauche, prévisualisation à droite – 100% offline*
+
 Cible v1.0 : daily driver programmation, dualboot laptop.
 Cible Mwangaza : Hyprland Kiosk offline (Kiwix) pour citoyen isolé sans internet.
 
