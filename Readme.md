@@ -3,15 +3,15 @@
 Le moins d'éléments extérieurs possibles.
 Base Arch pure, usage simple à la Windows. Chaque paquet a sa raison d'être.
 
-## Aperçu 1
+## Aperçu GRUB
 <img src="assets/Screen_1.png" width="650">
 *Menu à gauche, prévisualisation à droite – 100% offline*
 
-## Aperçu 2
+## Aperçu SDDM
 <img src="assets/Screen_2.png" width="650">
 *Menu à gauche, prévisualisation à droite – 100% offline*
 
-## Aperçu 3
+## Aperçu Lawbc
 <img src="assets/Screen_3.png" width="650">
 *Menu à gauche, prévisualisation à droite – 100% offline*
 
